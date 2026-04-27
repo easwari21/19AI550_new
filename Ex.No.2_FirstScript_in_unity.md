@@ -1,8 +1,10 @@
 # Ex.No: 2  Welcome Script in Unity
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 27.04.2026                                                                        
+### REGISTER NUMBER : 212223240033
+
 ### AIM: 
  To learn the basic scripting in Unity and print welcome message in Console window. 
+ 
 ### Procedure:
 1. Start the program
 2. Open the Unity hub and Create a new 3D project
@@ -14,6 +16,7 @@
 8. Add the component Firstscript in inspector window of 3Dobject.
 9. Run the program
 10. Stop the program.
+
 ### Program 
 ```
 using System.Collections;
@@ -36,7 +39,7 @@ public class FirstScript : MonoBehaviour
 ```
 ### Output:
 
-
+<img width="1907" height="1015" alt="Screenshot 2026-04-27 140830" src="https://github.com/user-attachments/assets/d5ba82dd-d38e-4e8f-8e08-b27ad56ab623" />
 
 ### Result:
 Thus the welcome script was printed on Console Window  sucessfully.
