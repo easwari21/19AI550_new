@@ -1,4 +1,4 @@
-# Ex.No: 5  Implementation of Steering behaviour-Pursue and Evade in Unity
+<img width="1883" height="998" alt="Screenshot 2026-05-11 144959" src="https://github.com/user-attachments/assets/55682044-8d4d-45d9-865d-83e10f03be42" /># Ex.No: 5  Implementation of Steering behaviour-Pursue and Evade in Unity
 ### DATE:                                                                            
 ### REGISTER NUMBER : 
 ### AIM: 
@@ -108,9 +108,16 @@ public class Pursuer: MonoBehaviour
 ```
 ### Output:
 
+<img width="1883" height="998" alt="Screenshot 2026-05-11 144959" src="https://github.com/user-attachments/assets/cfeaf6f6-8c52-4fa8-b28d-0d820a07ece9" />
+<img width="1410" height="976" alt="Screenshot 2026-05-11 145037" src="https://github.com/user-attachments/assets/1d9fde1b-6004-473e-ae86-2129f6d8e6b8" />
 
+<img width="1912" height="1036" alt="Screenshot 2026-05-11 145255" src="https://github.com/user-attachments/assets/1ddf564a-39fd-4d32-96cb-d9574accfef3" />
+<img width="1907" height="1002" alt="Screenshot 2026-05-11 145316" src="https://github.com/user-attachments/assets/5428d365-9b63-4772-b2ad-dd442b774784" />
 
+<img width="1637" height="1007" alt="Screenshot 2026-05-11 145329" src="https://github.com/user-attachments/assets/861d2924-5d6e-4909-9573-216047634bfd" />
 
+<img width="1211" height="845" alt="Screenshot 2026-05-11 145345" src="https://github.com/user-attachments/assets/3fb5ea6e-3b60-4edb-a506-10ae60b6b7d3" />
+<img width="1907" height="1012" alt="Screenshot 2026-05-11 145443" src="https://github.com/user-attachments/assets/1de9a2b6-1102-49c8-96d3-ce8b053d2907" />
 
 
 
