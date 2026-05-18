@@ -1,10 +1,13 @@
 # Ex.No: 8  Implementation of Path finding using A* algorithm
-### DATE:                                                                            
-### REGISTER NUMBER : 
+
+### DATE: 18.05.2026                                                                           
+### REGISTER NUMBER : 212223240033
+
 ### AIM: 
 To write a program to create graph using waypoints and use A* algorithm to find path between source and destination.
+
 ### Algorithm:
-```
+
 1. Create a New Unity Project by Open the  Unity Hub and create a new 3D Project,Name the project (e.g., Pathfinding).
 2. Create Waypoints in Scene => Create empty or sphere GameObjects ( minimum 4)  and  name it as Waypoint1, Waypoint2, ..., Waypoint4
    Position them freely in the scene (not on a grid)
@@ -14,10 +17,11 @@ To write a program to create graph using waypoints and use A* algorithm to find 
 6. Attach Waypoint script to it
 7.Write a Pathfinding algorithm using A*search
 8. Create a Game Object for Player ( choose capsule or any others) and attach the script to move player from start to end waypoints
-```  
+
 ### Program:
 ```
 **#1.Waypoint.cs**
+
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -34,7 +38,10 @@ public class Waypoint : MonoBehaviour {
         }
     }
 }
+```
+```
 **#2. WaypointGraph.cs**
+
 using UnityEngine;
 
 public class WaypointGraph : MonoBehaviour {
@@ -44,7 +51,10 @@ public class WaypointGraph : MonoBehaviour {
         allWaypoints = FindObjectsOfType<Waypoint>();
     }
 }
+```
+```
 **#3.Pathfinding.cs**
+
 using System.Collections.Generic;
 using UnityEngine;
 public class Pathfinding : MonoBehaviour {
@@ -103,8 +113,10 @@ public class Pathfinding : MonoBehaviour {
         return path;
     }
 }
-
+```
+```
 **#4.AICharacter.cs**
+
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -136,13 +148,15 @@ Check the following
 2. Neighbors set manually via Inspector
 3. WaypointGraph script on a manager
 4. AICharacter assigned a start and goal
+```
 ### Output:
 
+<img width="1482" height="995" alt="image" src="https://github.com/user-attachments/assets/77938fd5-d8e5-42b0-861d-e5cef3646fe6" />
 
+<img width="1872" height="947" alt="image" src="https://github.com/user-attachments/assets/2068f7b1-c9bf-453b-b3e6-760f34ca6a0d" />
+<img width="1906" height="982" alt="image" src="https://github.com/user-attachments/assets/38bf498d-3edb-47f0-ac4e-703c1ce6140d" />
 
-
-
-
+<img width="1887" height="982" alt="image" src="https://github.com/user-attachments/assets/34bdf163-0279-4950-bf10-25e4c8ed5073" />
 
 
 
